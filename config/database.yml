@@ -21,15 +21,10 @@ default: &default
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   username: postgres
   password: neo2233
-
   pool: 5
 
 development:
   <<: *default
-
-  username: fuego_del_kof@hotmail.com
-  password: cGx1AZNK
-
   
   database: blog_development
 
