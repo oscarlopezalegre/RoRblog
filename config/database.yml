@@ -26,6 +26,11 @@ default: &default
 
 development:
   <<: *default
+
+  username: fuego_del_kof@hotmail.com
+  password: cGx1AZNK
+
+  
   database: blog_development
 
   # The specified database role being used to connect to postgres.
